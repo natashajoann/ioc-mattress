@@ -1,0 +1,25 @@
+/* always add in your universal reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  /* border:1px solid rgb(200,200,200); */
+}
+/* end of universal reset */
+
+header, footer{
+  background-color: #182b36;
+}
+span{
+  color:yellow;
+}
+
+h1{
+  color:white;
+}
+.goodnight span{
+  color:blue;
+}
+.goodnight{
+  color:black; 
+}
