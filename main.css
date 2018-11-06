@@ -7,19 +7,175 @@
 }
 /* end of universal reset */
 
-header, footer{
-  background-color: #182b36;
+/* For the whole page */
+body{
+  font-family: 'macho', sans-serif;
 }
-span{
-  color:yellow;
+h3 {
+  font-weight:400;
+}
+h2{
+  font-weight: 700;
+  font-size:1.75rem;
 }
 
 h1{
   color:white;
+  font-size:70px;
 }
+
+p{
+  font-size:15px;
+}
+
+/* header */
+header {
+  background-image: url("mattress-images/gilles-lambert-249996.jpg");
+  background-size:cover;
+  background-position:center;
+  padding: 18%;
+  text-align:center;
+  color: white;
+}
+/* div images */
+
+.squares div {
+  padding: 7%;
+}
+.dog-pic {
+  background-image: url("mattress-images/charles-deluvio-351207.jpg");
+  background-size:cover;
+  background-position:50% 38%;
+  min-height: 400px;
+  max-height: 430px;
+  max-width: 430px;
+}
+/* WHY IS DOG PIC NOT SAME SIZE!!!!!!! */
+
+.mattress-pic{
+  background-image: url("mattress-images/rhema-kallianpur-275251.jpg");
+  background-size:cover;
+  background-position:center;
+}
+
+/* GOOD NIGHT SECTION */
+.goodnight {
+  background-image: url("mattress-images/joanna-kosinska-129039.jpg");
+  background-size:cover;
+  background-position:50% 38%;
+  padding:8%;
+  text-align:center;
+}
+
+.goodnight h1{
+  color: black;
+}
+
 .goodnight span{
-  color:blue;
+  color:white;
 }
-.goodnight{
-  color:black; 
+
+/* QUOTE SECTION */
+
+.quote {
+  padding:8%;
+}
+
+
+.quote p{
+  text-align:right;
+  color:grey;
+}
+
+.quote h1{
+  color:grey;
+}
+
+.quote2{
+  text-align:right;
+}
+
+.quote4{
+  padding:0;
+}
+/* FEATURES SECTION */
+.features {
+  background-color:#182b36;
+  padding:7%;
+  color:white;
+  text-align:center;
+}
+
+.features i{
+  padding:14%;
+  padding-right:40%;
+}
+
+.features p{
+  text-align:left;
+  padding-right:7%;
+}
+
+.title-features{
+  text-align: center;
+  color: white;
+}
+
+/* FOOTER SECTION */
+
+footer{
+  background-color: #182b36;
+  padding: 6%;
+}
+
+
+.foot h3{
+  padding:0;
+  margin:0;
+}
+
+.foot p{
+  font-size:15px;
+  padding-top: 6%;
+  padding-right:15%;
+  font-weight:200;
+}
+
+.contact-form{
+  margin:auto;
+  border-radius: 10%;
+  padding:15%;
+}
+
+.contact-button{
+  background-color:#ecb100;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+
+input {
+  width:100%;
+  padding: 3%;
+  margin:3px 0;
+  border:none;
+  border-radius: 2px;
+  font-size: 15px
+}
+
+textarea{
+  width:100%;
+  resize: none;
+  padding: 3%;
+  margin: 3px 0;
+  border:none;
+  border-radius: 2px;
+  color: grey;
+  font-size:15px;
+}
+
+/* MISC */
+
+span{
+  color: #ecb100;
 }
