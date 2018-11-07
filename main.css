@@ -5,6 +5,13 @@
   box-sizing:border-box;
   /* border:1px solid rgb(200,200,200); */
 }
+
+/* here we're fixing a gridlex bug to get rid of any weird white margins that you don't want */
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin: 0;
+}
+
+
 /* end of universal reset */
 
 /* For the whole page */
@@ -143,13 +150,16 @@ header h3{
 }
 
 .features i{
-  padding:14%;
-  padding-right:40%;
+  text-align:center;
+  padding-bottom: 10%;
+}
+
+.features div{
+  padding:3%;
 }
 
 .features p{
   text-align:left;
-  padding-right:7%;
 }
 
 .title-features{
