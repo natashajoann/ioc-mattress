@@ -30,7 +30,7 @@ p{
 
 /* header */
 header {
-background-color:#182b36; 
+background-color:#182b36;
   background-image: url("mattress-images/gilles-lambert-249996.jpg");
   background-size:cover;
   background-position:center;
@@ -70,17 +70,41 @@ header h3{
   max-width: 430px;
 }
 
+/*   DOG AND MATTRESS MOBILE VERSION */
+
+.mobile-version div {
+  padding: 7%;
+}
+.dog-pic-mobile {
+  background-image: url("mattress-images/charles-deluvio-351207.jpg");
+  background-size:cover;
+  background-position:50% 38%;
+  min-height: 400px;
+  max-height: 430px;
+  max-width: 430px;
+}
+
+.mattress-pic-mobile {
+  background-image: url("mattress-images/rhema-kallianpur-275251.jpg");
+  background-size:cover;
+  background-position:center;
+  min-height: 400px;
+  max-height: 430px;
+  max-width: 430px;
+}
+
 /* GOOD NIGHT SECTION */
 .goodnight {
   background-image: url("mattress-images/joanna-kosinska-129039.jpg");
   background-size:cover;
   background-position:50% 38%;
-  padding:8%;
+  padding:10%;
   text-align:center;
 }
 
 .goodnight h1{
   color: black;
+  line-height:70px;
 }
 
 .goodnight span{
@@ -196,4 +220,22 @@ textarea{
 
 span{
   color: #ecb100;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width:1280px) {
+  .mobile-version{
+    display:none;
+  }
+}
+
+@media (max-width:768px){
+  .squares{
+    display:none;
+  }
+  .mobile-version{
+    display:block;
+  }
 }
