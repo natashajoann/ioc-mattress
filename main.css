@@ -37,6 +37,15 @@ header {
   text-align:center;
   color: white;
 }
+
+header h1{
+  margin-bottom:-22px;
+}
+
+header h3{
+  letter-spacing: 2.9px;
+  font-size: 1.75rem;
+}
 /* div images */
 
 .squares div {
@@ -50,12 +59,14 @@ header {
   max-height: 430px;
   max-width: 430px;
 }
-/* WHY IS DOG PIC NOT SAME SIZE!!!!!!! */
 
 .mattress-pic{
   background-image: url("mattress-images/rhema-kallianpur-275251.jpg");
   background-size:cover;
   background-position:center;
+  min-height: 400px;
+  max-height: 430px;
+  max-width: 430px;
 }
 
 /* GOOD NIGHT SECTION */
@@ -121,7 +132,8 @@ header {
   color: white;
 }
 
-/* FOOTER SECTION */
+/* FOOTER SECTION  */
+/* how do I make the let's connect have less spacing in b/w */
 
 footer{
   background-color: #182b36;
@@ -134,17 +146,22 @@ footer{
   margin:0;
 }
 
+.foot h1{
+  line-height: 40px;
+}
+
 .foot p{
   font-size:15px;
-  padding-top: 6%;
+  padding-top: 10%;
   padding-right:15%;
-  font-weight:200;
+  font-weight:100;
+  line-height:20px;
 }
 
 .contact-form{
   margin:auto;
   border-radius: 10%;
-  padding:15%;
+  width:90%;
 }
 
 .contact-button{
