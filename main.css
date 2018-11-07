@@ -30,6 +30,7 @@ p{
 
 /* header */
 header {
+background-color:#182b36; 
   background-image: url("mattress-images/gilles-lambert-249996.jpg");
   background-size:cover;
   background-position:center;
@@ -39,7 +40,7 @@ header {
 }
 
 header h1{
-  margin-bottom:-22px;
+  line-height:1;
 }
 
 header h3{
