@@ -14,6 +14,19 @@
 
 /* end of universal reset */
 
+nav{
+  text-align:center;
+
+}
+
+nav a{
+  text-decoration:none;
+  color:inherit;
+  padding:0.5rem;
+  display:in-line block;
+  border: 1px solid black;
+}
+
 /* For the whole page */
 body{
   font-family: 'macho', sans-serif;
@@ -102,6 +115,7 @@ header h3{
 
 /* GOOD NIGHT SECTION */
 .goodnight {
+  background-color:#ecb100;
   background-image: url("mattress-images/joanna-kosinska-129039.jpg");
   background-size:cover;
   background-position:50% 38%;
@@ -248,5 +262,9 @@ span{
   }
   .mobile-version{
     display:block;
+  }
+
+  /* .mobile-start{
+    order:-1; */
   }
 }

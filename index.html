@@ -21,19 +21,27 @@
 
 </head>
 <body>
-  <!-- --------- HEADER SECTION--------- -->
+<nav>
+<a href="#benefits"> Benefits </a>
+<a href="#features"> Features </a>
+<a href="#testimonials"> Testimonials </a>
+<a href="#connect"> Connect </a>
+</nav>
+  <!-- - - - - - - - - -  HEADER SECTION- - - - - - - - - -->
   <header>
     <h1><span> sleep </span> like a baby </h1>
     <h3> the ultimate mattress solution </h3>
   </header>
 
-  <!-- -- - - Grids w/ Dog and info section -->
-  <section class="grid squares">
+  <!-- - - - - Grids w/ Dog and info section -->
+  <section id="benefits" class="grid squares">
     <!-- FIRST dog + info -->
     <div class="col-6_sm-12 dog-pic-mobile">
       </div>
 
-    <div class="col-6_sm-12">
+    <div class="col-6_sm-12 mobile-start">
+      <!-- TASH PAY ATTENTION: up here there's a class of mobile-start that you can use INSTEAD of adding a whole new sction to change the order of the grid and INSTEAD you change the order of this div with the one above by selecting it in css and using the order:-1 command -check the media queries section in CSS to see how you did it -->
+
       <h2> built to last a <span>lifetime</span> </h2>
       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
@@ -72,7 +80,7 @@
 
 
   <!--  - -- - - - - - - -  Features Section- - - - - - -  - - - - -->
-  <section class="grid features">
+  <section id="features" class="grid features">
     <div class="col-12 title-features">
       <h2> <span>features</span> you will love </h2>
     </div>
@@ -109,7 +117,7 @@
 </section>
 
 <!-- -------- QUOTE SECTION  - - -  - -- - -  - - -->
-<section class="grid quote">
+<section id="testimonials" class="grid quote">
   <div class="col-2 quote2">
     <i class="fas fa-quote-left"></i>
   </div>
@@ -125,7 +133,7 @@
 </section>
 
 <!-- - - - - - - - - - - - - - FOOTER - - - - - -  - - -  -->
-<footer class="grid foot">
+<footer id="connect" class="grid foot">
   <div class="col-6_sm-12">
     <h1> let's <br><span>connect</span> <h1>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -141,6 +149,9 @@
     </form>
   </div>
 </footer>
+
+<script src="jquery.js"></script>
+<script src="main.js"></script>
 
 </body>
 </html>
