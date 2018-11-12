@@ -39,5 +39,23 @@ $('a[href*="#"]')
     }
   });
   // END OF THE SMOOTH SCROLL JQUERY
+// burger menu
+
+$( document ).ready(function() {
+   $(".burger-button").click(function(){
+     $(".burger-button").toggleClass("active");
+     $(".burger-menu").slideToggle();
+   });
+});
+
+$( document ).ready(function() {
+   $(".burger-menu").click(function(){
+     $(".burger-button").toggleClass("active");
+     $(".burger-menu").slideToggle();
+   });
+});
+
+// end burger menu
+
 
 });
